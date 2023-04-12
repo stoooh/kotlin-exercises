@@ -1,7 +1,7 @@
 package exercise1
 
 fun main(args: Array<String>) {
-    for (i in 1..100 step 2) {
+    for (i in 0..100 step 5) {
         if (i <= 50) {
             //to do function 1
             printNumberBelow50(i)
@@ -11,11 +11,10 @@ fun main(args: Array<String>) {
         }
     }
 }
-
-fun printNumberBelow50(number: Int) {
-    println("this function print number below 50: $number")
+fun printNumberBelow50(i: Int) {
+    println("this function print number below 50: $i")
 }
 
-fun printNumberAbove50(number: Int) {
-    println("this function print number above 50: $number")
+fun printNumberAbove50(i: Int) {
+    println("this function print number above 50: $i")
 }
